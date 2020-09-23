@@ -1,0 +1,6 @@
+#!/bin/bash
+while [ 1 = 1 ]
+do
+echo "Contents of custom_tmp:" $(find -maxdepth 1 -type d | wc -l ) "files, " $(ls -h | grep "/" |wc -l) "folders"
+sleep 10
+done
