@@ -1,0 +1,16 @@
+#!/bin/bash
+cd custom_tmp
+for var in $(ls -p ~/Desktop/cmder/Workspace/custom_tmp | grep -v /)
+do
+    if [$(($(date +%s) - $(date +%s -r $var))) -ge 600] 
+    then
+        rm $var
+    fi
+done
+for var in $(ls -p ~/Desktop/cmder/Workspace/custom_tmp | grep "/")
+do
+    if [$(($(date +%s) - $(date +%s -r $var))) -ge 600]
+    then
+        rm -r $var
+    fi
+done

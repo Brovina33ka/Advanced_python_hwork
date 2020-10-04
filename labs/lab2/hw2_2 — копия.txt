@@ -1,0 +1,4 @@
+#!/bin/bash
+%выполнение первой строчки показывает Directory is not empty, пишут что это можно исправить удалением из папки атрибутов скрытых и системных файлов командой attrib -h , потом -s, но это не помогло...
+rmdir  ~/Desktop/cmder/Workspace/custom_tmp
+mkdir  ~/Desktop/cmder/Workspace/custom_tmp
