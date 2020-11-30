@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[16]:
-
-
 from random import randint
 
 class NucAcid:
@@ -82,10 +76,3 @@ class DNA(NucAcid):
 
     def __str__(self):
         return f"[{self.sequence}, {self.complementary_sequence()}]"
-
-
-# In[ ]:
-
-
-
-
