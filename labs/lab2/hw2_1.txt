@@ -1,0 +1,6 @@
+#!/bin/bash
+while [ 1 = 1 ]
+do
+    echo "Contents of custom_tmp:" $(ls -p  ~/Desktop/cmder/Workspace/custom_tmp | grep -v / | wc -l ) "files, " $(ls -p   ~/Desktop/cmder/Workspace/custom_tmp | grep "/" |wc -l) "folders"
+    sleep 10
+done
