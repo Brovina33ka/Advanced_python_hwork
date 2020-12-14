@@ -1,0 +1,10 @@
+#!/bin/bash
+cd custom_tmp
+for var in $(ls -p ~/Desktop/cmder/Workspace/custom_tmp | grep -v /)
+do
+    rm $var
+done
+for var in $(ls -p ~/Desktop/cmder/Workspace/custom_tmp | grep "/")
+do
+    rm -r $var
+done
