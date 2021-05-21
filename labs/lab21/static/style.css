@@ -1,8 +1,7 @@
 <style>
 
-body
-{
-      background-color: rgba(255, 228, 192, 0.5)
+body {
+	color: rgba(255, 127, 0, 0.5);
 }
 
 
@@ -27,6 +26,22 @@ pre
     color: rgb(117, 74, 74);
     padding: 5px;
     font: "Times New Roman";
+}
+
+
+<li>
+{
+	color: rgb(117, 74, 74);
+    	padding: 5px;
+    	font: "Times New Roman";
+}
+
+
+<ur>
+{
+	color: rgb(117, 74, 74);
+    	padding: 5px;
+    	font: "Times New Roman";
 }
 
 </style>
