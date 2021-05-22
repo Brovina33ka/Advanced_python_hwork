@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Визитка</title>
-    <link rel="icon" href="./iconka.ico" type="image/x-icon"/> 
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='iconka.ico') }}" type="image/x-icon"/> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 
@@ -24,13 +24,13 @@
     </figure>
     <section>
         <h2>Общая информация</h2>
-	<pre> 
-            Образовательное учреждение: МФТИ
-            Курс: 3
-            Физтех-школа: ФБМФ
-            Кафедра: кафедра молекулярной и трансляционной медицины (надежда есть)
+	<p> 
+            <br> Образовательное учреждение: МФТИ
+            <br> Курс: 3
+            <br> Физтех-школа: ФБМФ
+            <br> Кафедра: кафедра молекулярной и трансляционной медицины (надежда есть)
 
-        </pre>
+        <p>
     </section>
 
 
@@ -45,12 +45,15 @@
   		<li>Был ли в этом какой-то смысл? - Конечно, был</li>
                 <li>Как РТ, только БМ БМ БМ!!!!!</li>
                 <li>Владимир был столицей Руси до Москвы</li>
-  		<li> <a href="info.html" target="_blank">Более интересная информация</a> </li>
+		<li> <a href="{{ url_for('info', filename='info.html') }}"> Более интересная информация </a> </li>
 
         </ul>
     </section> 
 
-    <p> <br> Долгопрудный, 2021 г <p>
+
+    <br>
+    <p id="text" contenteditable="true"> Переменная </p>
+    <button id="save">Сохранить</button>
 
 </body>
 
