@@ -1,0 +1,46 @@
+
+
+body {
+	background-color: rgba(255, 127, 0, 0.5);
+}
+
+
+p
+{
+
+    color: rgb(117, 74, 74); 
+    padding: 5px;
+    font: "Times New Roman";
+       
+}
+
+section
+{
+    font: bold "Segoe Print";
+
+
+}
+
+pre
+{
+    color: rgb(117, 74, 74);
+    padding: 5px;
+    font: "Times New Roman";
+}
+
+
+<li>
+{
+	color: rgb(117, 74, 74);
+    	padding: 5px;
+    	font: "Times New Roman";
+}
+
+
+<ur>
+{
+	color: rgb(117, 74, 74);
+    	padding: 5px;
+    	font: "Times New Roman";
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Визитка</title>
+    <link rel="icon" href="{{ url_for('static', filename='iconka.ico') }}" type="image/x-icon"/> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body>
+
+    <figure>
+  	<div class="image">
+ 	<p style="text-align: center;"><img src="https://sun9-32.userapi.com/impg/zdUDhzv3cdh3e06LKgaVe1fSPfyLgDU5uCq2Qw/qQmuOK8H2e8.jpg?size=1360x256&quality=96&sign=541182fca1f714cd747247cecccc55cf&type=album" alt="Cнимок" align = "bottom" width="1300" height="270"/></p>
+  	</div>
+    </figure>
+    <figure>
+        <div class="image">
+ 	<img src="https://sun9-9.userapi.com/impg/8YYguYHZQOeVdxW7zL0O8Qmf1BNN2eGmPZ8BkA/W1eMnH988fM.jpg?size=496x719&quality=96&sign=7aecbb830957bb750f5130702e00bc0b&type=album" align = "left" width="248" height="360";/></p>
+  	</div>
+    </figure>
+    <section>
+        <h2>Общая информация</h2>
+	<p> 
+            <br> Образовательное учреждение: МФТИ
+            <br> Курс: 3
+            <br> Физтех-школа: ФБМФ
+            <br> Кафедра: кафедра молекулярной и трансляционной медицины (надежда есть)
+
+        <p>
+    </section>
+
+
+    <section>
+    	
+
+        <h2>Подробная информация</h2>
+        <ul>
+        	<li>Состою в дизайн-отделе студенческого совета ФБМФ</li>
+                <li>Генные штуки - это здорово</li>
+  		<li>Закончила художественную школу</li>
+  		<li>Был ли в этом какой-то смысл? - Конечно, был</li>
+                <li>Как РТ, только БМ БМ БМ!!!!!</li>
+                <li>Владимир был столицей Руси до Москвы</li>
+		<li> <a href="{{ url_for('info', filename='info.html') }}"> Более интересная информация </a> </li>
+
+        </ul>
+    </section> 
+
+
+    <br>
+    <p id="text" contenteditable="true"> Переменная </p>
+    <button id="save">Сохранить</button>
+
+</body>
+
+
+</html>
